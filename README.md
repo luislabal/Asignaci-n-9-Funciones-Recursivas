@@ -1,7 +1,7 @@
 Asignacion 9 Funciones Recursivas
 
 #Características: El siguiente proyecto contiene cinco ejercicios desarrollados en dos versiones ya sea una iterativa u otra recursiva.
-El objetivo de la msima es practicar la identificación del caso base, para eso utilizamos la formulación del caso recursivo, y comparamos 
+El objetivo de la misma es practicar la identificación del caso base, para eso utilizamos la formulación del caso recursivo, y comparamos 
 la eficiencia entre ambos enfoques. De igual manera, los ejercicios implementan el uso de funciones recursivas aplicadas en diferentes contextos 
 y tambien nos muestran cómo la recursión puede simplificar la lógica de algunos problemas.
 
