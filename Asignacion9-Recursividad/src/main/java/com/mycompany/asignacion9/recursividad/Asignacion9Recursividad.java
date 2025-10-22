@@ -25,12 +25,12 @@ public class Asignacion9Recursividad {
         System.out.println("Recursiva: " + contarRecursivo(arr2, x, 0));
 
         //Ejercicio 3
-        File raiz = new File("C:/Users/luisc/Music/Musica"); // Cambiar según tu directorio
+        File raiz = new File("C:/Users/luisc/Music/Musica");
         System.out.println("\nEjercicio 3 - Exploracion de carpetas");
         explorarRecursivo(raiz);
 
         //Ejercicio 4
-        String cadena = "hola";
+        String cadena = "hola somos el equipo 5";
         System.out.println("\nEjercicio 4 - Invertir cadena '" + cadena + "'");
         System.out.println("Iterativa: " + invertirIterativa(cadena));
         System.out.println("Recursiva: " + invertirRecursiva(cadena));
@@ -102,9 +102,7 @@ public class Asignacion9Recursividad {
         }
 
         public static String invertirRecursiva(String s) {
-            // Caso base: longitud 0 o 1
             if (s.length() <= 1) return s;
-            // Caso recursivo: último carácter + invertir resto
             return s.charAt(s.length() - 1) + invertirRecursiva(s.substring(0, s.length() - 1));
         }
 
@@ -121,9 +119,7 @@ public class Asignacion9Recursividad {
         }
 
         public static boolean esPalindromoRecursivo(String s) {
-            // Caso base: longitud 0 o 1
             if (s.length() <= 1) return true;
-            // Caso recursivo: comparar extremos y recortar
             if (s.charAt(0) != s.charAt(s.length() - 1)) return false;
             return esPalindromoRecursivo(s.substring(1, s.length() - 1));
         }
