@@ -42,6 +42,8 @@ public class Asignacion9Recursividad {
         System.out.println("Recursiva: " + esPalindromoRecursivo(String.valueOf(num)));
     }
     
+        
+        //EJERCICIO 1 - Suma elemntos
         public static int sumaIterativa(int[] arr) {
         int suma = 0;
         for (int num : arr) {
